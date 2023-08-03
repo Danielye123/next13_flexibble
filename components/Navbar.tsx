@@ -15,6 +15,7 @@ const Navbar = () => {
                     alt="Flexxible" 
                     />
                 </Link>
+                // links
                 <ul className="xl:flex hidden text-small gap-7">
                     {NavLinks.map((link) => (
                         <Link href={link.href} key={link.key}>
